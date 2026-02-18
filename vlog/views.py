@@ -5,7 +5,7 @@ from django.http import HttpResponse
 def index(request):
     return render(request,'blog/index.html')
 
-def detail(request, post_id):
+def detail(request):
      return render(request,'blog/detail.html')
     
 
